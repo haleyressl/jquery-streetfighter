@@ -15,10 +15,13 @@ body {
 /*****************************
 ******* Ryu Image Styles *****
 *****************************/
+.hadouken, .ryu-cool, .ryu-ready, .ryu-still, .ryu-throwing {
+  background-repeat: no-repeat;
+}
 
 .ryu {
-    width: 659px;
-    height: 494px;
+  width: 659px;
+  height: 494px;
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing {
@@ -56,5 +59,22 @@ body {
   top:167px;
   left:520px;
   float: left;
+}
 
+.how-to {
+  color: red;
+  font-family: comical;
+  font-size: 50px;
+  width: 600px;
+}
+
+.how-to p {
+  width: 50%;
+  color: black;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.how-to p + p {
+  margin-left: 275px;
 }
